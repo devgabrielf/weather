@@ -1,6 +1,5 @@
 import { render } from '../../utils/test-utils';
 import { screen } from '@testing-library/react';
-import { useWeather } from '../../contexts/WeatherContext';
 import { Main } from '.';
 
 jest.mock('../../contexts/WeatherContext', () => {
